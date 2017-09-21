@@ -1,151 +1,67 @@
 ---
-title: Grove Starter kit for Arduino&Genuino 101
-category: Arduino
-bzurl:  https://www.seeedstudio.com/Grove-Starter-kit-for-Arduino%26Genuino-101-p-2664.html
-oldwikiname: Grove Starter kit for Arduino&Genuino 101
-prodimagename: Grove_Starter_kit_for_Arduino_101product_view_1024_s.jpg
-surveyurl: https://www.research.net/r/Grove_Starter_kit_for_Arduino_101
-sku:    110020109
+title: Grove_Inventor_Kit_for_micro:bit
+category: others
+bzurl:  https://www.seeedstudio.com/Grove-Inventor-Kit-for-micro%3Abit-p-2891.html
+oldwikiname: Grove_Inventor_Kit_for_micro:bit
+prodimagename: https://statics3.seeedstudio.com/seeed/file/2017-06/bazaar492598_8.jpg
+surveyurl: https://www.research.net/r/Grove_Inventor_Kit_for_microbit
+sku:    110060762
 ---
-![](https://github.com/SeeedDocument/Grove_Starter_kit_for_Arduino_101/raw/master/img/Grove_Starter_kit_for_Arduino_101product_view_1024_s.jpg)
+![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/zoro_im_kitbox.jpg)
 
-Grove system is designed to connect a processor to the real world through different transducers (such as sensors and motors), expansion boards and Grove wires which look like a ribbon cable. With Grove system, you will not bother to handle excessive and complicated connections as you used to do. No soldering tool, breadboard and jumper wire were required. You just need to plug plenty of transducers to development board with base shield expansion boards and Grove cables. Grove system is very helpful for accelerate your project development process, especially for a novice.
+The BBC micro:bit is a pocket-sized computer that can easily realize your creativity without much electrical and coding knowledge. There are numerous possibility of creation you can dig out by micro:bit, from robots to musical instruments. However if you want to create more things, just 1 micro:bit is barely not enough, That’s why we introduce the Grove Inventor Kit for micro:bit to you.
 
-**Note** that all content herein also applies to Genuino 101.
+The Grove Inventor Kit for Micro:bit brings endless possibilities to your micro:bit. The core board in this kit is the Grove shield for micro:bit, with which you can use plenty of Grove modules including sensors, display, actuator to interact with micro:bit. If you never used and have no idea what grove is, here is the introduction of Grove. All you need to know is that with Grove, there is no need of soldering or jump wires any more. Your prototyping will be easier and much more convenient.
 
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Starter-kit-for-Arduino%26Genuino-101-p-2664.html)
+We have already prepared 8 grove modules to let you get started with micro:bit. With these grove modules, you can measure distance and display it, use gesture to play different music, or make a smart guard for your desk or room. We have prepared all the necessary libraries(packages) for free download. If you are a beginner to micro:bit, don’t worry because we have also prepare 12 different project which can teach you step by step. If you are an advanced user, this kit will help you more creative project than others.
 
 
-###  Version Tracker
 
-<table>
-<tr>
-<td>Product version </td>
-<td> Release date</td>
-<td> Support status </td>
-<td> Notes
-</td></tr>
-<tr>
-<td> Grove Starter kit for Arduino 101(v1.0 current version) </td>
-<td> April 2016‎ </td>
-<td> Supported </td>
-<td> None
-</td></tr></table>
+
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Grove-Inventor-Kit-for-micro%3Abit-p-2891.html)
 
 ##  Features
 
-*   Grove port interfaced to save time and reduce difficulties for a novice
-
-*   All functional modules are fundamental and essential for learning.
-
-*   Cut down overheads as a kit
-
-*   Interesting and step-by-step demo
-
-###  Platform supported
-
-<table>
-<tr>
-<td>Platform</td>
-<td> Seeeduino/Arduino </td>
-<td> Rasberry Pi </td>
-<td> LinkIt One </td>
-<td> Beaglebone </td>
-<td> LinkIt ONE
-</td></tr>
-<tr>
-<td> Supported status</td>
-<td colspan="5"> Supported, except for Base Shield which only applies to Arduino/Seeeduino platform.
-</td></tr></table>
+    * Cool extension shield with rich and convenient peripherals;
+    * 10 well selected Grove modules for working with micro:bit;
+    * 12 awesome projects to let you get started quickly;
+    * Well documented instruction.
 
 ##  Hardware Overview
 
-This section lists main parts in this kit and links to get more information for each functional modules.
 
-![](https://github.com/SeeedDocument/Grove_Starter_kit_for_Arduino_101/raw/master/img/Grove_Starter_kit_for_Arduino_101_parts_s.jpg)
+![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/first_im.jpg)
 
 ###  **Parts list**
+| Part name | Quantity |
+|--------------------------|-----|
+|Grove Shield for micro:bit|  1  |
+|Grove - Rotary Angle Sensor(P)| 1 |
+|Grove - Speaker | 1 |
+|Grove - Ultrasonic Ranger| 1 |
+|Grove - Light Sensor v1.2| 1 |
+|Grove - WS2812 Waterproof LED Strip - 30 LEDs 1 meter| 1 |
+|Grove - Gesture | 1 |
+|Grove - 4-Digit Display| 1 |
+|Grove - Red LED| 1 |
+|Micro USB Cable - 48cm| 1 |
+|12 Projects Manual| 1 |
+|Alligator Cable| 10 |
+|Grove Cable| 7 |
 
-<table>
-<tr>
-<th>Parts name   </th>
-<th> Quantity</th>
-<th> Links for more information
-</th></tr>
-<tr>
-<td> Grove - Rotary Angle Sensor(P)  </td>
-<td> 1 piece </td>
-<td> [http://www.seeedstudio.com/wiki/Grove_-_Rotary_Angle_Sensor](/Grove-Rotary_Angle_Sensor)
-</td></tr>
-<tr>
-<td> Grove – Button</td>
-<td>1 piece </td>
-<td> [http://www.seeedstudio.com/wiki/Grove_-_Button](/Grove-Button)
-</td></tr>
-<tr>
-<td>Grove - Touch Sensor </td>
-<td>1 piece</td>
-<td> [http://www.seeedstudio.com/wiki/Grove_-_Touch_Sensor](/Grove-Touch_Sensor)
-</td></tr>
-<tr>
-<td>Grove LEDs</td>
-<td>1 piece</td>
-<td>[http://www.seeedstudio.com/depot/s/GROVE%2520LED.html?search_in_description=0](http://www.seeedstudio.com/depot/s/GROVE%2520LED.html?search_in_description=0)
-</td></tr>
-<tr>
-<td>Grove - Buzzer</td>
-<td>1 piece</td>
-<td>[http://www.seeedstudio.com/wiki/Grove_-_Buzzer](/Grove-Buzzer)
-</td></tr>
-<tr>
-<td>Grove - Sound Sensor</td>
-<td>1 piece</td>
-<td>[http://www.seeedstudio.com/wiki/Grove_-_Sound_Sensor](/Grove-Sound_Sensor)
-</td></tr>
-<tr>
-<td>Grove - Light Sensor</td>
-<td>1 piece</td>
-<td>[http://www.seeedstudio.com/wiki/Grove_-_Light_Sensor_v1.2](/Grove-Light_Sensor_v1.2)
-</td></tr>
-<tr>
-<td>Grove - Temperature Sensor</td>
-<td>1 piece</td>
-<td>[http://www.seeedstudio.com/wiki/Grove_-_Temperature_Sensor](/Grove-Temperature_Sensor)
-</td></tr>
-<tr>
-<td>Grove - Relay</td>
-<td>1 piece</td>
-<td>[http://www.seeedstudio.com/wiki/Grove_-_Relay](/Grove-Relay)
-</td></tr>
-<tr>
-<td>Grove - Servo</td>
-<td>1 piece</td>
-<td>[http://www.seeedstudio.com/wiki/Grove_-_Servo](/Grove-Servo)
-</td></tr>
-<tr>
-<td>Grove - LCD RGB Backlight</td>
-<td>1 piece</td>
-<td>[http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight](/Grove-LCD_RGB_Backlight)
-</td></tr>
-<tr>
-<td>Base Shield V2.0</td>
-<td>1 piece</td>
-<td>[http://www.seeedstudio.com/wiki/Base_Shield_v2](/Base_Shield_v2)
-</td></tr>
-<tr>
-<td>User Manual (printed copy) </td>
-<td> 1 piece</td>
-<td> [http://www.seeedstudio.com/wiki/images/2/2e/Grove_Starter_Kit_arduino_101_manual%28printed_version%29_s.pdf](https://github.com/SeeedDocument/Grove_Starter_kit_for_Arduino_101/raw/master/res/Grove_Starter_Kit_arduino_101_manual-printed_version-s.pdf)
-</td></tr></table>
 
 ##  Getting Started
 
-###  Fundamentals with Arduino
+###  Fundamentals with  Micro:bit
 
-You need to know some essential knowledge if it is the first time that you get involved with Arduino. We have prepared some documentations for you to start with
-Arduino quickly and effectively. You can visit [https://www.arduino.cc/en/Tutorial/Foundations](https://www.arduino.cc/en/Tutorial/Foundations).
+You need to know some essential knowledge if it is the first time that you get involved with Micro:bit. You can click [here](https://microbit.org/code/) to see more about Micro:bit.
 
-###  Arduino Sketches (basic example for each module)
+Micro:bit offers two type of editor : JavaScript Block Editor and Python Editor. JavaScript Block Editor support graphical programming,it's easy to learn. And this Tutorial is based on JavaScript Block Editor.
+
+
+###  Step1.Open the Editor
+
+Please click here to open the JavaScript Block Editor,and you will see below
 
 After you have gotten an LED blinking (for Windows user, you can find it at [https://www.arduino.cc/en/Guide/Windows](https://www.arduino.cc/en/Guide/Windows), you can find other versions for Mac OS and Linux variants at
 [https://www.arduino.cc/en/Guide/HomePage](https://www.arduino.cc/en/Guide/HomePage) ), you still need to get familiar with Seeedstudio Grove system at [http://www.seeedstudio.com/wiki/Grove_System](/Grove_System). And now, you can do some more practical quizzes which are specialized designed for this kit. Download the sketches of quizzes at [https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino).
