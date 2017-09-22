@@ -56,12 +56,13 @@ We have already prepared 8 grove modules to let you get started with micro:bit. 
 
 You need to know some essential knowledge if it is the first time that you get involved with Micro:bit. You can click [here](https://microbit.org/code/) to see more about Micro:bit.
 
-Micro:bit offers two type of editor : JavaScript Block Editor and Python Editor. JavaScript Block Editor support graphical programming,it's easy to learn. And this Tutorial is based on JavaScript Block Editor.
+Micro:bit offers two type of editor : JavaScript Block Editor and Python Editor. JavaScript Block Editor support graphical programming,it's easy to learn. So this Tutorial is based on JavaScript Block Editor.
 
 
 ###  Step1.Open the Editor
 
-Please click here to open the JavaScript Block Editor,and you will see below
+Please click to open the **[JavaScript Block Editor](https://makecode.microbit.org/)** ,and you will see a graphical programming web.
 
-After you have gotten an LED blinking (for Windows user, you can find it at [https://www.arduino.cc/en/Guide/Windows](https://www.arduino.cc/en/Guide/Windows), you can find other versions for Mac OS and Linux variants at
-[https://www.arduino.cc/en/Guide/HomePage](https://www.arduino.cc/en/Guide/HomePage) ), you still need to get familiar with Seeedstudio Grove system at [http://www.seeedstudio.com/wiki/Grove_System](/Grove_System). And now, you can do some more practical quizzes which are specialized designed for this kit. Download the sketches of quizzes at [https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino).
+Here are two simple steps before you enjoy our kit, after that we can start program.
+
+###  Step2.Add Grove Package
