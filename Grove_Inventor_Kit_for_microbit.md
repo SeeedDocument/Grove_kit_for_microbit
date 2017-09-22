@@ -54,15 +54,75 @@ We have already prepared 8 grove modules to let you get started with micro:bit. 
 
 ###  Fundamentals with  Micro:bit
 
-You need to know some essential knowledge if it is the first time that you get involved with Micro:bit. You can click [here](https://microbit.org/code/) to see more about Micro:bit.
+You need to know some essential knowledge if it is the first time that you get involved with Micro:bit. You can click [ **here** ](https://microbit.org/code/) to see more about Micro:bit.
 
-Micro:bit offers two type of editor : JavaScript Block Editor and Python Editor. JavaScript Block Editor support graphical programming,it's easy to learn. So this Tutorial is based on JavaScript Block Editor.
-
-
-###  Step1.Open the Editor
-
-Please click to open the **[JavaScript Block Editor](https://makecode.microbit.org/)** ,and you will see a graphical programming web.
+Micro:bit offers two type of editor - JavaScript Block Editor and Python Editor. JavaScript Block Editor support graphical programming, it's easy to learn. So this Tutorial is based on JavaScript Block Editor.
 
 Here are two simple steps before you enjoy our kit, after that we can start program.
 
-###  Step2.Add Grove Package
+####  Step1.Open the Editor
+
+Please click to open the **[JavaScript Block Editor](https://makecode.microbit.org/)** , and you will see a graphical programming web.
+
+
+####  Step2.Add Grove Package
+  - Click the gear in the top right corner > select **Add Package**
+
+  ![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/0-1.png)
+
+  - Enter project URL: **github.com/seeed-studio/pxt-grove**
+
+  ![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/0-2.png)
+
+  - Now you can find **Grove**  in the toolbar.
+
+  ![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/0-3.png)
+
+### Demo 1. Gesture Recognition
+
+The gesture sensor can recognize 9 different gestures, in this demo, you will learn how to display the recognized
+gesture name on micro:bit.
+
+
+#### Part list
+
+|Part name|number|
+|---|---|
+|Grove - Gesture|1|
+|Grove Shield for micro:bit|1|
+|micro:bit|1|
+
+#### Connection
+
+  - Plug the micro:bit into Grove Shield for micro:bit.
+
+!!!warning please make sure the LED Array is faced up when you plug the micro:bit, or you may damage the board.
+
+  - Connect the Grove-Gesture to I2C Port of micro:bit via a Grove Universal 4 pin cable.
+  - Connect micro:bit to PC via a Micro-USB cable.
+
+
+![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/Gesture%20Recognition.png)
+
+
+#### Software
+  - Step1: Add On Gesture Block
+
+  ![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/1-1.png)
+
+  - Step2: Select Right, so that the sensor can recognize when you move your hand from right to the left.
+
+  ![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/1-2.png)
+
+  - Step3: Add Basic block **show string** and embed it into the Gesture block.Then double click "Hello!", change it to "Right".
+
+  ![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/1-3.png)
+
+  - Step4: Add "Left" and "Clockwise" the same way, and embed **show icon** into "Clockwise".
+
+  ![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/1-4.png)
+
+  - Step5: Add
+
+
+  ![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/Gesture%20Recognition.png)
